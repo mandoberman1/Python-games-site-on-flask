@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    На телефон
+{% endblock %}
+{% block content %}
+<div id="mobile">
+<h1>Игры на телефон в которые стоит поиграть:</h1>
+{% for mobi in mobile %}
+{{ mobi.name|safe }}
+<details>
+	<summary>Подробнее.</summary>
+        <img src="{{ mobi.photo }}" width=600 height=500 class="rounded img-fluid" alt="фотка">
+        {{ mobi.game|safe }}
+        <img src="{{ mobi.photi }}" width=600 height=500 class="rounded img-fluid" alt="Фотка">
+        {{ mobi.gami|safe }}
+</details>
+        {% endfor %}
+{% endblock %}</div>

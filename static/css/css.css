@@ -1,0 +1,38 @@
+body{
+
+            background-image: url("/static/img/фон8.png/");
+
+            background-size: no-repeat;
+
+            background-position: center;
+
+            background-size: cover;
+
+            height: 1263px;
+
+            width: 1263px;
+
+}
+h1{
+color:white;
+font-family: Georgia, "Times New Roman", serif;}
+
+h2{
+color:white;
+font-family: Georgia, "Times New Roman", serif;}
+
+h3{
+color:white;
+font-family: Georgia, "Times New Roman", serif;}
+
+#mobile{
+color:white;
+font-family: Georgia, "Times New Roman", serif;}
+
+#pc{
+color:white;
+font-family: Georgia, "Times New Roman", serif;}
+
+#obo{
+color:white;
+font-family: Georgia, "Times New Roman", serif;}

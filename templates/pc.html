@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block title %}
+   На пк
+{% endblock %}
+{% block content %}
+<div id="pc">
+<h1>Игры на пк в которые стоит сыграть:</h1>
+        {% for game in games %}
+{{ game.name|safe }}
+<details>
+	<summary>Подробнее.</summary>
+        <img src="{{ game.photo }}" width=600 height=500 class="rounded img-fluid" alt="фотка">
+        {{ game.game|safe }}
+        <img src="{{ game.photi }}" width=600 height=500 class="rounded img-fluid" alt="Фотка">
+        {{ game.gami|safe }}
+</details>
+        {% endfor %}
+{% endblock %}
+</div>
